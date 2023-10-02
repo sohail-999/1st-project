@@ -1,0 +1,87 @@
+/* Apply a black background to the entire body */
+body {
+    background-color: black;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items:start; 
+}
+
+
+.mobile-container {
+    background-color: white; 
+    max-width: 375px;
+    width: 100%;
+    padding: 20px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    color: black; 
+}
+/* top bar */
+.top-bar{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+height: 44px;
+}
+.time span{
+    font-weight: 500;
+    padding-left: 20px;
+}
+/* logo and hamberger */
+.second-bar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+color: var(--primary-b-400, #6070FF);
+font-size: 18px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+padding: 8px;
+}
+.hamb{
+    padding: 8px;
+}
+.hero{
+    height: 600px;
+}
+.hero-title{
+    font-family: Poppins;
+    margin-top: 70px;
+    margin-bottom: unset;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    color: #172B4D;
+    margin-right: 15px;
+    line-height: 52px; 
+}
+.hero-para{
+  font-family: Poppins;
+ text-align: left;
+ font-size: 16px;
+ font-weight: 400;
+}
+.social-text{
+    font-family: Poppins;
+    text-align: left;
+    color: #7F8CFF;
+    
+}
+.social-icons{
+  text-align: left;
+}
+main{
+    
+background-image: url('header-shapes\ mobile.png');
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+}
